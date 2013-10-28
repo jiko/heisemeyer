@@ -26,16 +26,15 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
 	text-transform: uppercase;}
 h1 { font-size: 1.3em;}
-article h1 { margin-bottom: -5px;}
 h2 { font-size: 1.17em;}
 h3 { font-size: 1em; line-height: 1em;}
 p { 
 	font-size: 14px;
 	line-height: 1.4em;}
 
-a         { color: #00a; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
+a         { color: #000; }
+a:hover   { color: #524B49; }
+a:visited { color: #3C6888; }
 
 hr {
 	border: 0;
@@ -107,10 +106,10 @@ nav li {
 nav #last {
 	border-right: 0px;}
 nav li a{
-	color: #524B49;
+	color: #524B49 !important;
 	text-decoration: none;}
 nav li a:hover, nav li a.current {
-	color: #000000;}
+	color: #000000 !important;}
 
 .site .meta {
   color: #aaa;
