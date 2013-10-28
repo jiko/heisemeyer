@@ -124,7 +124,11 @@ footer {
 	background-color: #EEC342;
 	overflow: auto;
 	width: 100%}
-
+	
+footer p {
+	float: left;
+	margin-right: 3%;}
+/*
 footer .contact {
   float: left;
   margin-right: 3em;
@@ -142,7 +146,7 @@ footer .rss {
 
 footer .rss img {
   border: 0;
-}
+}*/
 
 /*****************************************************************************/
 /*
