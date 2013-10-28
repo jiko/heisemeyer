@@ -94,7 +94,7 @@ nav{
 	height: auto;}
 nav ul {
 	margin: 0px;
-	padding: 5px 0px;
+	padding: 0.5% 0px;
 	border-top: 2px solid #c2c2c2;
 	border-left: 2px solid #c2c2c2;
 	border-right: 2px solid #c2c2c2;}
@@ -109,7 +109,8 @@ nav li a{
 	color: #524B49 !important;
 	text-decoration: none;}
 nav li a:hover, nav li a.current {
-	color: #000000 !important;}
+	color: #000000 !important;
+	text-decoration: none !important;}
 
 .site .meta {
   color: #aaa;
@@ -132,9 +133,9 @@ footer .contact a {
 }
 
 footer .rss {
-  margin-top: 1.1em;
   margin-right: -.2em;
   float: right;
+  text-align: right;
 }
 
 footer .rss img {
