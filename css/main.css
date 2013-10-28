@@ -121,7 +121,9 @@ footer {
 	font-weight: 400;
 	font-size: 12px;
 	padding: 1.5% 3%;
-	background-color: #EEC342;}
+	background-color: #EEC342;
+	overflow: auto;
+	width: 100%}
 
 footer .contact {
   float: left;
