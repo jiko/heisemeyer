@@ -127,6 +127,9 @@ footer {
 footer p {
 	float: left;
 	margin-right: 3%;}
+	
+footer address {
+	display: inline;}
 /*
 footer .contact {
   float: left;
