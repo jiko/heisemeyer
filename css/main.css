@@ -129,12 +129,12 @@ footer {
 	width: 100%;}
 	
 #footer_left {
-	width: 75%;
+	width: 74%;
 	float: left;
 	font-size: inherit;}
 #footer_right {
 	width: 21%;
-	float: left;
+	float: right;
 	font-size: inherit;}
 	
 footer address {
