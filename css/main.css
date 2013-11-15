@@ -75,13 +75,13 @@ ul.posts span {
 /*****************************************************************************/
 
 .container {
-	width: 930px;
+	width: 780px;
 	margin: 0px auto;
 	background color: #ffffff;}
 
 header {
 	padding: 2%;
-	border-top: 2px solid #EEC343;}
+	border-top: 3px solid #EEC343;}
 header h1 {
 	color: #ffffff;}
 	
@@ -96,10 +96,7 @@ nav{
 	text-shadow: -1px 1px 2px #a9a9a9;}
 nav ul {
 	margin: 0px;
-	padding: 0.5% 0px;
-	border-top: 2px solid #c2c2c2;
-	border-left: 2px solid #c2c2c2;
-	border-right: 2px solid #c2c2c2;}
+	padding: 1% 0px;}
 nav li {
 	display: inline-block;
 	width: 24.5%;
