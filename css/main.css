@@ -87,7 +87,12 @@ header h1 {
 #headerinfo {
 	float: right;
 	text-align: right;
+	color: #fff;
+	padding-top: 7%;}
+#headerinfo a { 
 	color: #fff;}
+#headerinfo a:hover { 
+	color: #514C4A;}
 	
 nav{
 	font-family: 'Montserrat', Arial, sans-serif;
@@ -129,11 +134,11 @@ footer {
 	width: 100%;}
 	
 #footer_left {
-	width: 74%;
+	width: 65.5%;
 	float: left;
 	font-size: inherit;}
 #footer_right {
-	width: 21%;
+	width: 26.5%;
 	float: right;
 	font-size: inherit;}
 	
