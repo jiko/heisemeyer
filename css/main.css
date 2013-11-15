@@ -17,15 +17,16 @@ header, nav, article, footer {
 body {
 	color: #524b49;
 	background-color: #3c6888;
-	background-image: url("{{ site.baseurl }}/img/background.png");
+	background-image: url("{{site.baseurl}}/img/background.png");
 	font-family: 'Helserif-Boo', Georgia, Times, Serif;
 	margin: 0px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Montserrat', Arial, sans-serif;
-	font-weight: 700;
-	text-transform: uppercase;}
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-shadow: -1px 1px 3px #c1c1c1;}
 h1 { font-size: 1.3em;}
 h2 { font-size: 1.17em;}
 h3 { font-size: 1em; line-height: 1em;}
@@ -91,7 +92,8 @@ nav{
 	font-size: .8em;
 	color: #524B49;
 	background-color: #EEC342;
-	height: auto;}
+	height: auto;
+	text-shadow: -1px 1px 2px #a9a9a9;}
 nav ul {
 	margin: 0px;
 	padding: 0.5% 0px;
