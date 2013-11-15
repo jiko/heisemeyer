@@ -83,7 +83,6 @@ header {
 	padding: 2%;
 	border-top: 3px solid #EEC343;}
 header h1 {
-	float: left;
 	color: #ffffff;}
 #headerinfo {
 	float: right;
@@ -127,13 +126,13 @@ footer {
 	padding: 1.5% 3%;
 	background-color: #EEC342;
 	overflow: auto;
-	width: 100%}
+	width: 100%;}
 	
-#footer_right {
+#footer_left {
 	width: 75%;
 	float: left;
 	font-size: inherit;}
-#footer_left {
+#footer_right {
 	width: 21%;
 	float: left;
 	font-size: inherit;}
