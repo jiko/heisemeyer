@@ -83,10 +83,12 @@ header {
 	padding: 2%;
 	border-top: 3px solid #EEC343;}
 header h1 {
+	float: left;
 	color: #ffffff;}
 #headerinfo {
 	float: right;
-	text-align: right;}
+	text-align: right;
+	color: #fff;}
 	
 nav{
 	font-family: 'Montserrat', Arial, sans-serif;
@@ -127,10 +129,14 @@ footer {
 	overflow: auto;
 	width: 100%}
 	
-.footercolumn {
-	width: 45%;
+#footer_right {
+	width: 75%;
 	float: left;
-	margin-right: 3%;}
+	font-size: inherit;}
+#footer_left {
+	width: 21%;
+	float: left;
+	font-size: inherit;}
 	
 footer address {
 	display: inline;}
