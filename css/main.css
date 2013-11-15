@@ -23,8 +23,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: Helvetica, sans-serif;
-	font-weight: 300;
+	font-family: 'Montserrat', Arial, sans-serif;
+	font-weight: 500;
 	text-transform: uppercase;}
 h1 { font-size: 1.3em;}
 h2 { font-size: 1.17em;}
@@ -85,8 +85,8 @@ header h1 {
 	color: #ffffff;}
 	
 nav{
-	font-family: Helvetica, Arial, sans-serif;
-	font-weight: 700;
+	font-family: 'Montserrat', Arial, sans-serif;
+	font-weight: 500;
 	text-transform: uppercase;
 	font-size: .8em;
 	color: #524B49;
@@ -162,7 +162,8 @@ article {
 	border: 2px solid #c2c2c2;
 	background-color: #ffffff;
 	overflow: auto;
-	padding: 1.5% 3%;}
+	padding: 1.5% 3%;
+	font-family: 'Helserif-Boo', Georgia, Times, Serif;}
 
 /* standard */
 .post pre {
