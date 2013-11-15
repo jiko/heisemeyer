@@ -84,6 +84,9 @@ header {
 	border-top: 3px solid #EEC343;}
 header h1 {
 	color: #ffffff;}
+#headerinfo {
+	float: right;
+	text-align: right;}
 	
 nav{
 	font-family: 'Montserrat', Arial, sans-serif;
@@ -93,10 +96,10 @@ nav{
 	color: #524B49;
 	background-color: #EEC342;
 	height: auto;
-	text-shadow: -1px 1px 2px #a9a9a9;}
+	text-shadow: -1px 1px 3px #b9b9b9;}
 nav ul {
 	margin: 0px;
-	padding: 1% 0px;}
+	padding: 1.25% 0px;}
 nav li {
 	display: inline-block;
 	width: 24.5%;
