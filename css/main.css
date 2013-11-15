@@ -17,7 +17,7 @@ header, nav, article, footer {
 body {
 	color: #524b49;
 	background-color: #3c6888;
-	background-image: url("{{ site.baseurl }}images/background.png");}
+	background-image: url("{{ site.baseurl }}/img/background.png");}
 	font-family: 'Helserif-Boo', Georgia, Times, Serif;
 	margin: 0px;
 }
@@ -125,7 +125,7 @@ footer {
 	overflow: auto;
 	width: 100%}
 	
-footer p {
+.footercolumn {
 	width: 45%;
 	float: left;
 	margin-right: 3%;}
