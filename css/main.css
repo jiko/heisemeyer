@@ -92,7 +92,7 @@ header h1 {
 #headerinfo a { 
 	color: #fff;}
 #headerinfo a:hover { 
-	color: #514C4A;}
+	color: #c1c1c1;}
 	
 nav{
 	font-family: 'Montserrat', Arial, sans-serif;
@@ -134,13 +134,11 @@ footer {
 	width: 100%;}
 	
 #footer_left {
-	width: 65.5%;
-	float: left;
-	font-size: inherit;}
+	font-size: 12px;}
 #footer_right {
 	width: 26.5%;
 	float: right;
-	font-size: inherit;}
+	font-size: 12px;}
 	
 footer address {
 	display: inline;}
