@@ -1,2 +1,7 @@
 name: Heise-Meyer Commercial Real Estate
 baseurl: /heisemeyer
+markdown: redcarpet
+redcarpet:
+  extensions:
+    - smart
+    - autolink
