@@ -231,6 +231,10 @@ article img {
 /*
 /******************************************************************************/
 
-.img-responsive {
+.img-responsive pull-right {
   padding-left: 10px;
+} 
+
+.img-responsive pull-left {
+  padding-right: 10px;
 } 
