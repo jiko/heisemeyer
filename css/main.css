@@ -211,7 +211,6 @@ article {
 
 /*****************************************************************************/
 /*
-<<<<<<< HEAD
 /* Images
 /*
 /*****************************************************************************/
@@ -221,17 +220,9 @@ article {
 	max-height: 160px;
 	}
 
-.leftimg {
-	float: left !important;
-	margin-right: 15px;
-	max-width: 260px;
-	}
-
-.rightimg {
-	float: right !important;
-	margin-left: 15px;
-	max-width: 260px;
-	}
+body img {
+	width: 260px;
+}
 =======
 /* Overrides
 /*
@@ -240,4 +231,3 @@ article {
 .img-responsive {
   padding-left: 10px;
 } 
->>>>>>> f0d0a1cdd25032bbc162ab604b39a4779b573fff
