@@ -96,31 +96,7 @@ header h1 {
 #headerinfo a:hover { 
 	color: #c1c1c1;}
 	
-nav{
-	font-family: 'Montserrat', Arial, sans-serif;
-	font-weight: 700;
-	text-transform: uppercase;
-	font-size: .8em;
-	color: #524B49;
-	background-color: #EEC342;
-	height: auto;
-	text-shadow: -1px 1px 3px #b9b9b9;}
-nav ul {
-	margin: 0px;
-	padding: 1.25% 0px;}
-nav li {
-	display: inline-block;
-	width: 16%;
-	border-right: 2px solid #c2c2c2;
-	text-align: center}
-nav #last {
-	border-right: 0px;}
-nav li a{
-	color: #524B49 !important;
-	text-decoration: none;}
-nav li a:hover, nav li a.current {
-	color: #000000 !important;
-	text-decoration: none !important;}
+
 
 .site .meta {
   color: #aaa;
@@ -238,3 +214,30 @@ article img {
 .pull-left {
   padding-right: 10px;
 } 
+/*
+nav{
+	font-family: 'Montserrat', Arial, sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: .8em;
+	color: #524B49;
+	background-color: #EEC342;
+	height: auto;
+	text-shadow: -1px 1px 3px #b9b9b9;}
+nav ul {
+	margin: 0px;
+	padding: 1.25% 0px;}
+nav li {
+	display: inline-block;
+	width: 16%;
+	border-right: 2px solid #c2c2c2;
+	text-align: center}
+nav #last {
+	border-right: 0px;}
+nav li a{
+	color: #524B49 !important;
+	text-decoration: none;}
+nav li a:hover, nav li a.current {
+	color: #000000 !important;
+	text-decoration: none !important;}
+*/
