@@ -9,8 +9,10 @@
 
         <meta name="Keywords" content="property, heise, meyer, commercial, commercial real estate, commercial lease, office space, office space kansas city, land for sale kansas city, land for sale, property for sale, property for sale kansas city, office space for lease, office space for lease olathe, office space for sale, warehouse for sale kansas city, warehouse for sale kansas, land for sale kansas, real, estate, real estate, real-estate, management, brokerage, Kansas, City, Kansas City, metro, Blue Springs, Blue, Springs, Independence, Lees, Lee's, Lees Summit, Summit, Olathe, Missouri, Kansas, KS, MO, Overland, Park" />
         
-        <link rel="stylesheet" href="{{ site.baseurl }}/css/bootstrap.min.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/css/normalize.css" />
+        <link rel="stylesheet" href="{{ site.baseurl }}/css/foundation.min.css" />
         <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+        <script src="{{ site.baseurl }}/js/modernizr.js"></script>
 		<link rel="stylesheet" href="{{ site.baseurl }}/css/webfonts/helserif-book.css" type="text/css" charset="utf-8" />
 		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
@@ -23,23 +25,25 @@
             <div id="headerinfo"><a href="tel:+18162514600">816.251.4600</a><br/><a href="mailto:info@heise-meyer.com">info@heise-meyer.com</a></div>
               <h1 class="title"><a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/img/logo-white.png" height="80px"></a></h1>
             </header>
-         <div class="navigation">   
-            <nav class="navbar navbar-default" role="navigation">
-            <div class="collapse navbar-collapse">
-            	<ul class="nav navbar-nav">
-            		<li><a href="{{ site.baseurl }}/">Home</a></li>
-            		<li><a href="{{ site.baseurl }}/services.html">Services</a></li>
-              		<li><a href="{{ site.baseurl }}/properties.html">Properties</a></li>
-                	<li><a href="{{ site.baseurl }}/experience.html">Experience</a></li>
-                	<li><a href="{{ site.baseurl }}/about.html">About Us</a></li>
-              		<li id="last"><a href="{{ site.baseurl }}/contact.html">Contact</a></li>
-              	</ul>
-              </div>
+            <nav class="top-bar" data-topbar role="navigation">
+              <ul class="title-area">
+                <li class="name"><h1><a href="{{ site.baseurl }}/">Home</a></h1></li>
+                <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+                <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+              </ul>
+              <section class="top-bar-section">
+                <ul class="right">
+                    <li><a href="{{ site.baseurl }}/services.html">Services</a></li>
+                    <li><a href="{{ site.baseurl }}/properties.html">Properties</a></li>
+                    <li><a href="{{ site.baseurl }}/experience.html">Experience</a></li>
+                    <li><a href="{{ site.baseurl }}/about.html">About Us</a></li>
+                    <li id="last"><a href="{{ site.baseurl }}/contact.html">Contact</a></li>
+                </ul>
+              </section>
             </nav>
-         </div>   
             <article>
 
-                      {{ content }}
+              {{ content }}
 
             </article>
             <footer>
@@ -62,8 +66,10 @@
             </footer>
           </div><!-- /site -->
         </div> <!-- /container -->
-        <script src="https://code.jquery.com/jquery.js"></script>
-        <script src="{{ site.baseurl }}/js/collapse.js"></script>
-        <script src="{{ site.baseurl }}/js/transition.js"></script>
+        <script src="{{ site.baseurl }}/js/jquery.js"></script>
+        <script src="{{ site.baseurl }}/js/foundation.min.js"></script>
+        <script>
+          $(document).foundation();
+        </script>
     </body>
 </html>

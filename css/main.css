@@ -208,12 +208,21 @@ article img {
 /******************************************************************************/
 
 .pull-right {
+  float: right !important;
   padding-left: 10px;
 } 
 
 .pull-left {
+  float: left !important;
   padding-right: 10px;
 } 
+
+.img-responsive {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
 /*
 nav{
 	font-family: 'Montserrat', Arial, sans-serif;
