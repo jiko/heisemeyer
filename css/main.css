@@ -77,7 +77,7 @@ ul.posts span {
 /*****************************************************************************/
 
 .container {
-	width: 780px;
+	max-width: 780px;
 	margin: 0px auto;
 	background color: #ffffff;}
 
