@@ -222,8 +222,8 @@ article img {
   margin: 5% 0;
 }
 
-/*
-nav{
+
+nav.top-bar {
 	font-family: 'Montserrat', Arial, sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -232,9 +232,7 @@ nav{
 	background-color: #EEC342;
 	height: auto;
 	text-shadow: -1px 1px 3px #b9b9b9;}
-nav ul {
-	margin: 0px;
-	padding: 1.25% 0px;}
+/*
 nav li {
 	display: inline-block;
 	width: 16%;
