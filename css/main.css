@@ -228,8 +228,9 @@ nav.top-bar {
 	background-color: #EEC342;
 }
 
-.top-bar-section ul li {
-	color: #EEC342;
+ul.right {
+	color: #524B49;
+	background-color: #EEC342;
 }
 
 .top-bar-section ul li > a {
