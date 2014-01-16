@@ -87,6 +87,7 @@ header {
 header h1 {
 	color: #ffffff;}
 #headerinfo {
+	display: inline-block;
 	float: right;
 	text-align: right;
 	color: #fff;
