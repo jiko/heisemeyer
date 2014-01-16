@@ -223,8 +223,8 @@ article img {
 }
 
 
-nav.top-bar {
-	font-family: 'Montserrat', Arial, sans-serif;
+.top-bar, .top-bar-section{
+	font-family: 'Montserrat', Arial, sans-serif !important;
 	font-weight: 700;
 	text-transform: uppercase;
 	font-size: .8em;
