@@ -195,11 +195,11 @@ article {
 	width: 113px;
 	max-height: 160px;
 	}
-
+/*
 article img {
 	width: 260px;
 	}
-
+*/
 
 /*****************************************************************************/
 /*
@@ -209,18 +209,17 @@ article img {
 
 .pull-right {
   float: right !important;
-  padding-left: 10px;
 } 
 
 .pull-left {
   float: left !important;
-  padding-right: 10px;
 } 
 
 .img-responsive {
   display: block;
   height: auto;
   max-width: 100%;
+  margin: 5% 0;
 }
 
 /*
