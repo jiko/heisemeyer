@@ -34,7 +34,8 @@ h2 { font-size: 1.17em;}
 h3 { font-size: 1em; line-height: 1em;}
 p { 
 	font-size: 1em;
-	line-height: 1.4em;}
+	line-height: 1.4em;
+	margin-bottom: .75rem;}
 
 a         { color: #000; }
 a:hover   { color: #524B49; }
@@ -219,7 +220,7 @@ article img {
   display: block;
   height: auto;
   max-width: 100%;
-  margin: 5% 0;
+  margin: 5% 0 7.5% 0;
 }
 
 
