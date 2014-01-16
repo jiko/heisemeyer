@@ -237,6 +237,18 @@ nav.top-bar {
 	background: #EEC342;
 }
 
+.top-bar.expanded .title-area {
+	background: #EEC342;
+}
+
+.top-bar expanded {
+	background: #EEC342;
+}
+
+.top-bar {
+	background: #EEC342;
+}
+
 /*
 nav.top-bar {
 	font-family: 'Montserrat', Arial, sans-serif !important;
