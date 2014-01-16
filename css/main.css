@@ -225,6 +225,7 @@ article img {
 
 nav.top-bar {
 	padding: 0px 2%;
+	background-color: #EEC342;
 }
 
 /*
@@ -234,7 +235,6 @@ nav.top-bar {
 	text-transform: uppercase;
 	font-size: .8em;
 	color: #524B49;
-	background-color: #EEC342;
 	height: auto;
 	text-shadow: -1px 1px 3px #b9b9b9;}
 
