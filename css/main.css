@@ -238,11 +238,11 @@ nav.top-bar {
 }
 
 .top-bar.expanded .title-area {
-	background: #EEC342;
+	background: #EEC342 !important;
 }
 
 .top-bar expanded {
-	background: #EEC342;
+	background: #EEC342 !important;
 }
 
 .top-bar {
