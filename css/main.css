@@ -87,6 +87,7 @@ header {
 header h1 {
 	color: #ffffff;}
 #headerinfo {
+	float: right;
 	text-align: right;
 	color: #fff;
 	padding-top: 7%;}
