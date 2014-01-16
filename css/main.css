@@ -222,6 +222,11 @@ article img {
   margin: 5% 0;
 }
 
+
+nav.top-bar {
+	padding: 0px 3%;
+}
+
 /*
 nav.top-bar {
 	font-family: 'Montserrat', Arial, sans-serif !important;
@@ -232,7 +237,7 @@ nav.top-bar {
 	background-color: #EEC342;
 	height: auto;
 	text-shadow: -1px 1px 3px #b9b9b9;}
-	
+
 section.top-bar-section {
 	display: inline-block;
 	color: #524B49;
@@ -243,19 +248,7 @@ section.top-bar-section li {
 	color: #524B49;
 	background-color: #EEC342;
 }
-*/
-.name h1, li.toggle-topbar men-icon a {
-	font-family: 'Montserrat', Arial, sans-serif !important;
-	font-weight: 700;
-	text-transform: uppercase;
-	font-size: .8em;
-}
 
-ul.right li {
-	font-family: inherit;
-}
-
-/*
 nav li {
 	display: inline-block;
 	width: 16%;
