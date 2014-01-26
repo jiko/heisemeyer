@@ -239,6 +239,7 @@ ul.right {
 	font-weight: 700;
 	text-transform: uppercase;
 	font-size: .8em;
+	line-height: 45px;
 	color: #524B49;
 	background: #EEC342;	
 }
@@ -250,6 +251,10 @@ ul.right {
 	font-size: .8em;
 	color: #524B49;
 	background: #EEC342;
+}
+
+.top-bar .toggle-topbar.menu-icon a {
+	color: rgb(82, 75, 73);
 }
 
 .top-bar-section li a:not(.button) {
