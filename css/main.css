@@ -106,18 +106,11 @@ header h1 {
 footer {
 	font-family: Helvetica, arial, sans-serif;
 	font-weight: 400;
-	font-size: 12px;
+	font-size: 0.9em;
 	padding: 1.5% 3%;
 	background-color: #EEC342;
 	overflow: auto;
 	width: 100%;}
-	
-#footer_left {
-	font-size: 12px;}
-#footer_right {
-	width: 26.5%;
-	float: right;
-	font-size: 12px;}
 	
 footer address {
 	display: inline;}
