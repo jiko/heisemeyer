@@ -216,6 +216,7 @@ article img {
   margin: 5% 0 7.5% 0;
 }
 
+.top-bar .name { padding-left: 10px; }
 
 nav.top-bar {
 	padding: 0px 2%;
