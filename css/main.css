@@ -1,5 +1,3 @@
----
----
 /*****************************************************************************/
 /*
 /* Common
@@ -19,7 +17,7 @@ header, nav, article, footer {
 body {
 	color: #524b49;
 	background-color: #3c6888;
-	background-image: url("{{site.baseurl}}/img/background.png");
+	background-image: url("/img/background.png");
 	font-family: 'Helserif-Boo', Georgia, Times, Serif;
 	margin: 0px;
 }
