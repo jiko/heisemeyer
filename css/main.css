@@ -27,13 +27,13 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 500;
 	text-transform: uppercase;
 	text-shadow: -1px 1px 3px #c1c1c1;}
-h1 { font-size: 1.3em;}
-h2 { font-size: 1.17em;}
-h3 { font-size: 1em; line-height: 1em;}
+h1 { font-size: 1.3em; padding-bottom: 0.5rem; }
+h2 { font-size: 1.17em; }
+h3 { font-size: 1em; line-height: 1em; }
 p { 
 	font-size: 1em;
 	line-height: 1.4em;
-	margin-bottom: .75rem;}
+	margin-bottom: .75rem; }
 
 a         { color: #000; }
 a:hover   { color: #524B49; }
