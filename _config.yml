@@ -1,3 +1,4 @@
+exclude:    ['Makefile']
 name: Heise-Meyer Commercial Real Estate
 markdown: redcarpet
 redcarpet:
