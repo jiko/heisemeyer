@@ -1,0 +1,24 @@
+{
+  "name": "heisemeyer",
+  "version": "0.0.1",
+  "description": "Heise-Meyer website",
+  "main": "index.html",
+  "dependencies": {
+    "uglify-js": "~2.4.12",
+    "cssmin": "~0.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jiko/heisemeyer.git"
+  },
+  "author": "James Koppen",
+  "license": "All rights reserved",
+  "bugs": {
+    "url": "https://github.com/jiko/heisemeyer/issues"
+  },
+  "homepage": "http://heise-meyer.com"
+}
