@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 { font-size: 1.3em; padding-bottom: 0.5rem; }
 h2 { font-size: 1.17em; }
 h3 { font-size: 1em; line-height: 1em; }
-p { 
+p {
 	font-size: 1em;
 	line-height: 1.4em;
 	margin-bottom: .75rem; }
@@ -90,11 +90,11 @@ header h1 {
 	text-align: right;
 	color: #fff;
 	padding-top: 7%;}
-#headerinfo a { 
+#headerinfo a {
 	color: #fff;}
-#headerinfo a:hover { 
+#headerinfo a:hover {
 	color: #c1c1c1;}
-	
+
 
 
 .site .meta {
@@ -109,7 +109,7 @@ footer {
 	background-color: #EEC342;
 	overflow: auto;
 	width: 100%;}
-	
+
 footer address {
 	display: inline;}
 /*
@@ -201,11 +201,11 @@ article img {
 
 .pull-right {
   float: right !important;
-} 
+}
 
 .pull-left {
   float: left !important;
-} 
+}
 
 .img-responsive {
   display: block;
@@ -233,7 +233,7 @@ ul.right {
 	font-size: .8em;
 	line-height: 45px;
 	color: #524B49;
-	background: #EEC342;	
+	background: #EEC342;
 }
 
 .top-bar-section ul li > a {
@@ -263,6 +263,22 @@ ul.right {
 
 .top-bar {
 	background: #EEC342;
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 /*
